@@ -1,0 +1,290 @@
+@media screen and (max-width: 1280px) {
+    .div1{
+        display: none;
+    }
+
+
+    .form_subpart3 h2{
+        margin-top: 2rem;
+    }
+
+    .form{
+        height: 79vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .form_subpart1{
+        width :85%;
+        /* background-color: yellow; */
+        padding: 0;
+    }
+
+    .form-1{
+        /* background-color: red; */
+        height: 22%;
+    }
+
+    .form-3{
+        width: 40%;
+    }
+
+    .form-subpart2 button{
+        padding: 5px 10px;
+    }
+
+    
+}
+
+
+@media screen and (max-width:834px) {
+    h1{
+        font-size: 4rem;
+    }
+
+    .container{
+        height: 105vh;
+    }
+
+    .form{
+        width: 90%;
+        height: 55vh ;
+        padding: 1rem;
+    }
+
+    .form-3{
+        width: 40%;
+        height: 55px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+   
+    
+
+    .hamburger_div{
+        display: block;
+    }
+
+    
+
+    .navItems.active{
+        left: 0;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    .form{
+        width: 90%;
+        height: 79vh;
+        gap: 0;
+    }
+
+    .formpart1{
+        /* background-color: yellow; */
+        width: 30%;
+        margin-right: 3rem;
+    }
+
+    .form-1{
+        flex-direction: column;
+        /* background-color: yellow; */
+        height: 25%;
+        gap: 0;
+    }
+
+    .form-2{
+       flex-direction: column;
+       align-items: center;
+       /* background-color: red; */
+       padding-top: 3rem;
+       height: 75%;
+       /* padding: 4rem; */
+    }
+
+    .form_subpart3 button{
+        width: 70%;
+        margin-left: 2rem;
+    }
+
+    .form_subpart3 h2{
+        line-height: 19px;
+    }
+
+    .form-2{
+        height: 55%;
+        margin-top: 2rem;
+    }
+
+    .input{
+        width: 100%;
+    }
+
+    .input2, .input3{
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .option{
+        width: 100%;
+    }
+
+    .formpart2-2 p{
+        margin-bottom: 0;
+    }
+
+    .form-3{
+        margin-top: 2rem;
+        width: 38%;
+    }
+
+    .part3-1{
+        font-size: 1rem;   
+    }
+
+    .div{
+        display: none;
+    }
+
+    .navbar_part2{
+        /* display: none; */
+        position: absolute;
+        background-color: #9fb3bbfd;
+        left: -200%;
+        top: 100%;
+        min-width: 100%;
+        width: 100px;
+        padding-block: 10px;
+        height: 130px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .formpart1{
+        /* background-color: red; */
+        width: 50%;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 485px) {
+    .container{
+        height: 170vh;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .form{
+        width: 95%;
+        height: 100vh;
+    }
+
+    .form-1{
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
+        height: 37%;
+    }
+
+    .form-subpart2{
+        gap: 10px;
+    }
+
+    .form-2{
+        /* flex-wrap: wrap; */
+        /* flex-direction: column; */
+        height: 79%;
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+    .input{
+        height: 25px;
+    }
+
+
+    .country-div{
+        flex-direction: column;
+        gap: 0;
+        
+    }
+
+    .country {
+        width: 100%;
+    }
+
+    .select {
+        width: 100%;
+    }
+
+    .option {
+        margin-top: -20px;
+        margin-left: 2px;
+        border-radius: 5px;
+        width: 90%;
+    }
+
+    .form-3{
+        width: 64%;
+        background-color: whitesmoke;
+    }
+
+    .form-4 p{
+        margin: 1rem 2rem;
+        font-size: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width: 425px) {
+
+    .form-1{
+        height: 40%;
+    }
+
+    .formpart1{
+        /* background-color: rebeccapurple; */
+        width: 100%;
+        margin-left: 4rem;
+        margin-top: 1rem;
+    }
+
+    .form_subpart3{
+        width: 100%;
+    }
+
+    .form_subpart3 button{
+        width: 80%;
+        margin-left: 2rem;
+    }
+
+    .form-2{
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .form-2{
+        height: 100%;
+        margin-top: 0rem;
+    }
+    .form-3{
+        width: 70%;
+    }
+
+    .form_part3-1{
+        width: 50%;
+        /* background-color: red; */
+    }
+}
